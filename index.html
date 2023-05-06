@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
         
 </head>
 <body>
@@ -28,18 +30,22 @@
                 <img id="alert_img" src="assets/Alert.png" alt=""><p id="alert_text">Solo letras minúsculas y sin acentos.</p>
             </div>
         
-            <button class="boton_1">Encriptar</button>
-            <button class="boton_2">Desencriptar</button>
+            <button class="boton_1" onclick="Encriptar()">Encriptar</button>
+            <button class="boton_2" onclick="Desencriptar()">Desencriptar</button>
 
         </section>
 
         <section class="desencriptador">
 
-            <div id="textarea_desencriptador">
+            <div id="divDesencriptador">
+            
                 <img src="assets/Muñeco.png" alt="" id="muñeco">
                 <p id="titulo">Ningún mensaje fue encontrado</p>
                 <p id="descripcion">Ingresa el texto que desees encriptar o desencriptar.</p>
+
             </div>
+
+            <button class="boton_3" onclick="copiar()">Copiar</button>
 
         </section>
 
