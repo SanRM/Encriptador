@@ -5,8 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+        
 </head>
 <body>
     
+    <header class="header">
+        <img src="assets/Vector.png" alt="">
+    </header>
+
+    <main>
+
+        <section class="encriptador">
+
+            <textarea id="textarea_Encriptador" placeholder="Ingresa texto aquí"></textarea>
+
+            <div id="alert">
+                <img id="alert_img" src="assets/Alert.png" alt=""><p id="alert_text">Solo letras minúsculas y sin acentos.</p>
+            </div>
+        
+            <button class="boton_1">Encriptar</button>
+            <button class="boton_2">Desencriptar</button>
+
+        </section>
+
+        <section class="desencriptador">
+
+            <div id="textarea_desencriptador">
+                <img src="assets/Muñeco.png" alt="" id="muñeco">
+                <p id="titulo">Ningún mensaje fue encontrado</p>
+                <p id="descripcion">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+
+        </section>
+
+    </main>
+
 </body>
 </html>
