@@ -25,16 +25,24 @@
     #textarea_Encriptador {
 
         width: 90%;
-        height: 600px;
+        height: 220px;
         resize: none;
         overflow: hidden;
         font-family: 'Inter', sans-serif;
         font-size: 1.5em;
         color: #0A3871;
         border-radius: 1%;
-        border-style: none;
+        border-style: solid;
+        border-color: #0a387121;
         background-color: rgb(233, 243, 255);
         padding: 20px;
+    }
+
+    #textarea_Encriptador:focus {
+        outline: none; 
+        border-style: solid;
+        border-color: #0A3871;
+        background-color: rgb(233, 243, 255); 
     }
 
     #alert {
