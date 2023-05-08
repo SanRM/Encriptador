@@ -54,7 +54,7 @@
     }
     
     #alert_img{
-        padding-top: 11px;
+        padding-top: 11.5px;
         width: 16px;
         height: 16px;
     }
@@ -118,6 +118,7 @@
     }
     
     #descripcion{
+        
         color: #495057;
         font-size: 13px;
         text-align: center;
